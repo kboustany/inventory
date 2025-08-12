@@ -1,0 +1,19 @@
+# Ignore build artifacts but keep the build folder
+/build/*
+!/build/.gitkeep
+
+# Object files and dependencies (if somehow not caught)
+/*.o
+/*.d
+
+# Executable (assuming it's in build/, but cover both cases)
+/main
+/build/main
+
+# Editor / OS metadata files
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/*
+!.vscode/launch.json
