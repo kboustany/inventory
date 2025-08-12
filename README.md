@@ -1,14 +1,4 @@
-# C Project Template
-
-This is a starter template for small-to-medium C projects using a structured layout.
-
-## Folder Structure
-
-- `src/` – All `.c` source files
-- `include/` – All `.h` header files
-- `build/` – Compiled object files and final binary
-
-## Available Commands
+# Available Commands
 
 ```sh
 make           # Build the development version (with debug symbols)
